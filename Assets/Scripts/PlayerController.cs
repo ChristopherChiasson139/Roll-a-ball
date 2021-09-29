@@ -6,6 +6,7 @@ using TMPro;
 
 public class PlayerController : MonoBehaviour
 {
+    public AudioClip PickupSound;
     public float speed = 0;
     public TextMeshProUGUI countText;
     public GameObject winTextObject;
@@ -50,6 +51,7 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        AudioSource.PlayClipAtPoint(PickupSound, transform.position);
         if(other.gameObject.CompareTag("PickUp"))
         {
             other.gameObject.SetActive(false);

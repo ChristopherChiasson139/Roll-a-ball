@@ -3,7 +3,10 @@ guid: c881200916478244eaef551f63786dde
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - PickupSound: {fileID: 8300000, guid: 24e9e2ddf4cb1b24c9c09ec263a632e1, type: 3}
+  - countText: {instanceID: 0}
+  - winTextObject: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
