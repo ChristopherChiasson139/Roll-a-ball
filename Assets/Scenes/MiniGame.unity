@@ -2046,7 +2046,6 @@ GameObject:
   - component: {fileID: 223656367}
   - component: {fileID: 223656366}
   - component: {fileID: 223656365}
-  - component: {fileID: 223656364}
   - component: {fileID: 223656363}
   - component: {fileID: 223656362}
   m_Layer: 0
@@ -2088,7 +2087,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!65 &223656364
+--- !u!65 &223656365
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2098,19 +2097,6 @@ BoxCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.9718766, y: 0.7322389, z: 0.9697057}
-  m_Center: {x: 0.003125333, y: 0.6139437, z: 0.0032617475}
---- !u!65 &223656365
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 223656361}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -17630,7 +17616,7 @@ Light:
   m_Shape: 0
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
   m_Intensity: 306.86
-  m_Range: 32.661285
+  m_Range: 31.755583
   m_SpotAngle: 52.22682
   m_InnerSpotAngle: 44.0289
   m_CookieSize: 10
@@ -17687,7 +17673,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1691842656}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -52.97, y: 58.18, z: -72.26259}
+  m_LocalPosition: {x: -52.97, y: 54.62, z: -72.26259}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

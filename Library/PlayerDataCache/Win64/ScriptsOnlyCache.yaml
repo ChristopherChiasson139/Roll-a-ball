@@ -58,6 +58,7 @@ ScriptsOnlyBuild:
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshPro
     - TMPro.TextMeshProUGUI
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -110,6 +111,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 91
@@ -158,6 +163,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 3508}
     - Class: 114
       Script: {instanceID: 3624}
+    - Class: 114
+      Script: {instanceID: 3684}
     - Class: 114
       Script: {instanceID: 3740}
     - Class: 114
@@ -227,15 +234,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7360}
     - Class: 114
-      Script: {instanceID: 7574}
+      Script: {instanceID: 7576}
     - Class: 114
-      Script: {instanceID: 7616}
+      Script: {instanceID: 7618}
     - Class: 114
-      Script: {instanceID: 7940}
+      Script: {instanceID: 7942}
     - Class: 114
-      Script: {instanceID: 8176}
+      Script: {instanceID: 8178}
     - Class: 114
-      Script: {instanceID: 23042}
+      Script: {instanceID: 23300}
+    - Class: 114
+      Script: {instanceID: 23330}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1315,7 +1324,7 @@ ScriptsOnlyBuild:
     className: SignalTrack
   - hash:
       serializedVersion: 2
-      Hash: fde8ba8986b0702fbadeffa5b584f0e2
+      Hash: c54df98aed2007c6c18c4890b6c8814b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerController
@@ -1448,4 +1457,4 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Scenes/MiniGame.unity
-  playerPath: C:/Users/chris/Desktop/Game/Unity/b2/Roll a ball.exe
+  playerPath: C:/Users/chris/Desktop/Game/Unity/Roll-a-Ball/build/b3/Roll a ball.exe
