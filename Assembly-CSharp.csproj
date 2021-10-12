@@ -65,6 +65,7 @@
     <Compile Include="Assets\Template\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Scripts\spin2.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\MainMenu.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
