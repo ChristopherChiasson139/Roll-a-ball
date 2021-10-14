@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Rotator.cs" />
+    <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\CameraController.cs" />
     <Compile Include="Assets\Template\Scripts\SimpleCameraController.cs" />
     <Compile Include="Assets\Scripts\Respawn.cs" />
@@ -65,7 +66,7 @@
     <Compile Include="Assets\Template\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Scripts\spin2.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
-    <Compile Include="Assets\Scripts\MainMenu.cs" />
+    <Compile Include="Assets\Scripts\SettingsMenu.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
