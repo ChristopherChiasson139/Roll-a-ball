@@ -19,6 +19,9 @@ ScriptsOnlyBuild:
     - UnityEngine.InputSystem.PlayerInput
     - UnityEngine.InputSystem.RemoteInputPlayerConnection
     - UnityEngine.InputSystem.UI.InputSystemUIInputModule
+    Unity.ProBuilder.Editor.dll:
+    - UnityEditor.ProBuilder.EditorToolbar
+    - UnityEditor.ProBuilder.ProBuilderEditor
     Unity.RenderPipelines.Core.Runtime.dll:
     - UnityEngine.Rendering.UI.DebugUIHandlerBitField
     - UnityEngine.Rendering.UI.DebugUIHandlerButton
@@ -116,8 +119,6 @@ ScriptsOnlyBuild:
     - Class: 82
       Script: {instanceID: 0}
     - Class: 83
-      Script: {instanceID: 0}
-    - Class: 89
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
@@ -234,9 +235,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 8184}
     - Class: 114
-      Script: {instanceID: 21718}
+      Script: {instanceID: 23146}
     - Class: 114
-      Script: {instanceID: 21762}
+      Script: {instanceID: 23176}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -296,6 +297,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 83
       Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
     - Class: 91
       Script: {instanceID: 0}
     - Class: 95
@@ -349,9 +352,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7582}
     - Class: 114
-      Script: {instanceID: 21718}
+      Script: {instanceID: 23146}
     - Class: 114
-      Script: {instanceID: 21762}
+      Script: {instanceID: 23176}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
