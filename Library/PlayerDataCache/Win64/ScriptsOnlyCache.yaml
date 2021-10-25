@@ -235,9 +235,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 8184}
     - Class: 114
-      Script: {instanceID: 23146}
+      Script: {instanceID: 23204}
     - Class: 114
-      Script: {instanceID: 23176}
+      Script: {instanceID: 23234}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -352,9 +352,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7582}
     - Class: 114
-      Script: {instanceID: 23146}
+      Script: {instanceID: 23204}
     - Class: 114
-      Script: {instanceID: 23176}
+      Script: {instanceID: 23234}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1592,4 +1592,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/MAIN MENU.unity
   - Assets/Scenes/MiniGame.unity
-  playerPath: C:/Users/chris/Desktop/Game/Unity/Roll-a-Ball/build/Roll a ball.exe
+  playerPath: C:/Users/chris/Desktop/Game/Unity/Roll-a-Ball/build/tb/Roll a ball.exe
