@@ -4,28 +4,15 @@ using UnityEngine;
 
 public class tigmovingbox4 : MonoBehaviour
 {
-    public GameObject AnimatedObject;
+    [SerializeField] private Animator myDoor;
 
-    private Animator _animator;
+    [SerializeField] private string doorOpen = "DoorOpen";
 
-    private void Start()
+    private void OnTriggerEnter(Collider other)
     {
-        _animator = AnimatedObject.GetComponent<Animator>();
+        if (other.CompareTag("Player"))
+        {
+            myDoor.Play(doorOpen, 0, 0.0f);
+        }
     }
-
-    void OnTriggerEnter(Collider other)
-    {
-        Debug.Log("bug");
-        _animator.enabled = true;
-        
-    }
-
-    void OnTriggerExit(Collider other)
-    {
-        _animator.enabled = false;
-
-    }
-
-    
-    
 }
