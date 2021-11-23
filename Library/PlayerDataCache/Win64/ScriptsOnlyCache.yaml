@@ -1,10 +1,13 @@
 ScriptsOnlyBuild:
   usedScripts:
+    Assembly-CSharp-Editor.dll:
+    - ReadmeEditor
     Assembly-CSharp.dll:
     - CameraController
     - MainMenu
     - PAUSEMENU
     - PlayerController
+    - Readme
     - Respawn
     - Rotator
     - SettingsMenu
@@ -247,9 +250,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10628}
     - Class: 114
-      Script: {instanceID: 195596}
+      Script: {instanceID: 116402}
     - Class: 114
-      Script: {instanceID: 1249962}
+      Script: {instanceID: 139736}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -368,7 +371,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9814}
     - Class: 114
-      Script: {instanceID: 195596}
+      Script: {instanceID: 116402}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
