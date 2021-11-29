@@ -5,7 +5,6 @@ ScriptsOnlyBuild:
     - MainMenu
     - PAUSEMENU
     - PlayerController
-    - Readme
     - Respawn
     - Rotator
     - SettingsMenu
@@ -261,7 +260,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 120036}
     - Class: 114
-      Script: {instanceID: 241290}
+      Script: {instanceID: 338452}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -2226,5 +2225,5 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/MAIN MENU.unity
   - Assets/Scenes/MiniGame.unity
-  playerPath: C:/Users/chris/Desktop/Game/Unity/Roll-a-Ball/build/b7/Rolling In The
-    Dark.exe
+  playerPath: C:/Users/chris/Desktop/Game/Unity/Roll-a-Ball/build/b7/Rolling in The
+    Dark build/Rolling In The Dark.exe
